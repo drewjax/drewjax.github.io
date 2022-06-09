@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "LeetCode day 1"
+date:   2022-06-08 19:16:26 -0400
+---
+
+Today I started my leet code practice. I had previously used leet code a while ago, as well as other websites such as hackerOne etc. I was not sure in what language I was going to do this in, but I decided to go with python as practicing the algorithms and data structures would be more user friendly. I wanted to maybe do it in C++ but I convinced myself out of it. Maybe in the future. I decided to make it into a Github repo, because it would be easier to keep track of it and come back at some undecided time. I know otherwise I would lose my code in the long run. I decided that to make it easier I would create my own snippet in VS code, that gives me a template so I do not have to write the redundant code. I also am putting my solution that I will try, and then the solution from neet code as a studying reference and learning opportunity. 
+
+What I did today was practice with hashes and arrays. My first problem dealt with an reoccurance in an array, so if there were 2 of the same number in an array it would return true or false. As I had to shake off some of my python code rust, for this problem I went straight to the solution. Where I was quickly reminded of the set() function. 
+
+My second problem dealt with anagrams, checking if 2 strings were anagrams. This problem I took on myself. I thought that I could sort each string and then compare them to see if they were anagrams. This actually worked, but was unefficient. The best solution was to use hash sets, and to have an active count of each letter in the strings, and then compare those sets. But I was able to get a viable solution so I was happy.
